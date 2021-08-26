@@ -1,0 +1,32 @@
+{
+  "name": "wix_logdna_adapter",
+  "version": "0.1.0",
+  "description": "LogDNA specific logging adapter for WiX/Velo",
+  "main": "app/server.js",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "fastify": "^3.20.2",
+    "pino": "^6.13.1",
+    "pino-logdna": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/braxtonj/wix_logdna_adapter.git"
+  },
+  "keywords": [
+    "logdna",
+    "wix",
+    "logging"
+  ],
+  "author": "Braxton Johnston",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/braxtonj/wix_logdna_adapter/issues"
+  },
+  "homepage": "https://github.com/braxtonj/wix_logdna_adapter#readme"
+}
