@@ -74,6 +74,9 @@ eb open
      * IE `https://myserver.com/log`
      * Once done, you should begin seeing all your WIX logs streaming into your LogDNA account.
 
+### Verify
+Verify that your [website's event logs](https://support.wix.com/en/article/velo-about-site-monitoring) are hitting your LogDNA account by heading over to the [Log Dashboard](https://app.logdna.com).
+
 ### Next Steps
 Chances are all your logs are not the same.  While LogDNA handles many logging formats, no system is a panacea.  Consider checking out LogDNA's [custom parsing](https://docs.logdna.com/docs/custom-parsing) before resorting to modifying this repo for special cases or refactoring your app's logs.
 
