@@ -1,4 +1,9 @@
 # WIX Adapter for LogDNA
+<p>
+    <a href="https://github.com/braxtonj/wix_logdna_adapter/releases/tag/v0.1.0-alpha" alt="v0.1.0-alpha">
+      <img src="https://img.shields.io/badge/version-v0.1.0--alpha-blue" /></a>
+</p>
+
 Middleware server to route your WIX logs to LogDNA
 ### Contents
   - [Setup](#setup)
