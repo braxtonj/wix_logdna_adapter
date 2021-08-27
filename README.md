@@ -50,7 +50,7 @@ echo "LOGDNA_API_KEY=YOUR_API_KEY" >> src/.env
 npm start
 ```
 5. In a new terminal, run ngrok to expose localhost to the internet and get your "url"
-```conole
+```console
 ngrok http 3000
 ```
 
