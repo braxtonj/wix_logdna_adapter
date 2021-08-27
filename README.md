@@ -25,11 +25,11 @@ Ensure you have a LogDNA account and an API key for your account.  Head over to 
 0. Requirements on server
    * Node v14
    * git
-1. Download the code
+1. Download the repo
 ```console
 git clone https://github.com/braxtonj/wix_logdna_adapter
 ```
-2. Navigate to the [code](src/) and install the system
+2. Navigate to [src/](src/) and install the system
 ```console
 cd wix_logdna_adapter/src
 npm install
