@@ -69,6 +69,9 @@ eb open
      * IE `https://myserver.com/log`
      * Once done, you should begin seeing all your WIX logs streaming into your LogDNA account.
 
+### Next Steps
+Chances are all your logs are not the same.  While LogDNA handles many logging formats, no system is a panacea.  Consider checking out LogDNA's [custom parsing](https://docs.logdna.com/docs/custom-parsing) before resorting to modifying this repo for special cases or refactoring your app's logs.
+
 ## Support
 Note this is repo is not officially support by LogDNA.  Code is provided as-is.
 
