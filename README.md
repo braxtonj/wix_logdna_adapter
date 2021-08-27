@@ -8,8 +8,9 @@ Middleware server to route your WIX logs to LogDNA
 ### Contents
   - [Setup](#setup)
     - [LogDNA](#logdna)
-    - [Local Server](#local-server)
-    - [AWS Elastic Beanstalk deployment](#aws-elastic-beanstalk-deployment)
+    - [Deployment Options](#deployment-options)
+      - [Local](#local)
+      - [AWS Elastic Beanstalk](#aws-elastic-beanstalk)
     - [WIX Log Monitoring](#wix-log-monitoring)
     - [Verify](#verify)
     - [Next Steps](#next-steps)
@@ -22,11 +23,15 @@ Middleware server to route your WIX logs to LogDNA
 
 ### LogDNA
 Ensure you have a LogDNA account and an API key for your account.  Head over to [LogDNA.com](https://logdna.com) to sign up if you haven't yet.
-### Local Server
 
+### Deployment Options
+Deploy either locally or to the server of your choice.
+
+#### Local
 0. Requirements on server
    * Node v14
    * git
+   * ngrok
 1. Download the repo
 ```console
 git clone https://github.com/braxtonj/wix_logdna_adapter
@@ -44,10 +49,13 @@ echo "LOGDNA_API_KEY=YOUR_API_KEY" >> src/.env
 ```console
 npm start
 ```
+5. In a new terminal, run ngrok to expose localhost to the internet and get your "url"
+```conole
+ngrok http 3000
+```
 
-### AWS Elastic Beanstalk deployment
-
-You can read more about this process [here](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_nodejs_express.html).
+#### AWS Elastic Beanstalk
+AWS Elastic Beanstalk deployment is as a scalable alternative to bare metal.  You can read more about this process [here](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_nodejs_express.html).
 
 0. Prerequisites
    * [Install the EB CLI](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html)
