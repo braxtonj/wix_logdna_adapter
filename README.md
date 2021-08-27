@@ -52,7 +52,7 @@ cd wix_logdna_adapter/src
 ```
 2. Initialize Elastic Beanstalk
 ```console
-eb init --platform node.js --region us-west-2 wix_logdna_adapter
+eb init --platform node.js --region us-west-2 wix-logdna-adapter
 ```
 3. Create the EB environment
 ```console
