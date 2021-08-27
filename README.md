@@ -4,7 +4,7 @@
       <img src="https://img.shields.io/badge/version-v0.1.0--alpha-blue" /></a>
 </p>
 
-Middleware server to route your WIX logs to LogDNA
+Middleware service to route your [WIX](https://wix.com) logs to [LogDNA](http://logdna.com).
 ### Contents
   - [Setup](#setup)
     - [LogDNA](#logdna)
