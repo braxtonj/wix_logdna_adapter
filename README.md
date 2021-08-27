@@ -25,7 +25,7 @@ Ensure you have a LogDNA account and an API key for your account.  Head over to 
 0. Requirements on server
    * Node v14
    * git
-1. Download the code and navigate there
+1. Download the code
 ```console
 git clone https://github.com/braxtonj/wix_logdna_adapter
 ```
@@ -50,7 +50,7 @@ You can read more about this process [here](https://docs.aws.amazon.com/elasticb
 0. Prerequisites
    * [Install the EB CLI](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html)
    * [Configure the EB CLI](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-configuration.html)
-1. Download the repo and cd to `src`
+1. Download the repo and cd to [`src`](src/)
 ```console
 git clone https://github.com/braxtonj/wix_logdna_adapter
 cd wix_logdna_adapter/src
