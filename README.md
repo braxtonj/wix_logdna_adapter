@@ -26,7 +26,7 @@ npm install
 ```
 4. Create an .env file with your LogDNA API key.  This **must** be defined to work
 ```console
-echo "LOGDNA_KEY=YOUR_API_KEY" >> src/.env
+echo "LOGDNA_API_KEY=YOUR_API_KEY" >> src/.env
 ```
 5. Run
 ```console

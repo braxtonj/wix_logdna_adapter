@@ -2,13 +2,13 @@
 
         Provided as-is :)
 
-        LOGDNA_KEY environment variable is required
+        LOGDNA_API_KEY environment variable is required
         See /log route for configuration of the log packet
 */
 
 
 // Allows one to create a .env file in src/ and use those keys
-//      env var LOGDNA_KEY is required for this to work
+//      env var LOGDNA_API_KEY is required for this to work
 require('dotenv').config();
 
 
@@ -17,7 +17,7 @@ require('dotenv').config();
 // https://github.com/logdna/pino-logdna
 const pinoLogdna = require('pino-logdna');
 const logdna_stream = pinoLogdna({
-    key: process.env.LOGDNA_KEY // Required.
+    key: process.env.LOGDNA_API_KEY // Required.
     , level: 'trace' // Ensures every pino level is grabbed (except secret)
     , app: 'logdna_wix_adapter'
     , indexMeta: true // Allows you to search any attached meta data that may be sent within LogDNA
